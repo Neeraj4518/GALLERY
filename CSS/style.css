@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(206, 198, 198);
+background-size: 100% 500px;
+ width: 1500px;
+  height: 1050px;
+}
+h1 {
+   text-align: center;
+    margin: -35PX;
+    color: rgb(109, 6, 23);
+    padding: 30px 680px;
+}
+.cards {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    padding: 20px 20px;
+    grid-gap: 100px;
+}
+.image img {
+    background-size: 100% 400px;
+    position:relative;
+    width: 250px;
+    height: 200px;
+    padding: 10px 20px;
+    margin: 10px -10px;
+    
+}
+ h4 {
+    text-align: center;
+    color: black;
+     border: rgb(9, 180, 237);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:100px;
+    margin:60px auto;
+    margin-left:170px;
+}
+@media  screen and (max-width:360px) {
+ .cards{
+    grid-template-columns: repeat(4,1fr);
+ }
+}
+@media(max-width:250px){
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
