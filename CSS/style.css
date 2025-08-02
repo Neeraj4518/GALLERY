@@ -5,15 +5,16 @@
 }
 body {
     background-color: rgb(206, 198, 198);
-background-size: 100% 500px;
- width: 1500px;
-  height: 1050px;
+background-size: 100% 200px;
+  overflow-x: hidden;  
+ width: 500px;
+  height: 500px;
 }
 h1 {
    text-align: center;
-    margin: -35PX;
+    margin: -30PX;
     color: rgb(109, 6, 23);
-    padding: 30px 680px;
+    padding: 30px 600px;
 }
 .cards {
     height: 250px;
@@ -25,7 +26,7 @@ h1 {
 .image img {
     background-size: 100% 400px;
     position:relative;
-    width: 250px;
+    width: 200px;
     height: 200px;
     padding: 10px 20px;
     margin: 10px -10px;
